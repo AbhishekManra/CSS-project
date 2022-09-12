@@ -1,0 +1,31 @@
+
+.header{
+    background-color: #1f2937;  
+    color: white;
+    height: 100px;
+    padding-top: 22px;
+    padding: 20px;
+
+}
+.mint{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+}
+.fun{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.first{
+    font-weight: 1000;
+    font-size: 28px;
+}
+.h{
+    font-size: 12px;
+}
+
+.inter{
+    display: flex;
+    gap: 20px;
+}
