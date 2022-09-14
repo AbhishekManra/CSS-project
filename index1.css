@@ -2,7 +2,7 @@
 .header{
     background-color: #1f2937;  
     color: white;
-    height: 100px;
+    height: 300px;
     padding-top: 22px;
     padding: 20px;
 
@@ -21,11 +21,44 @@
     font-weight: 1000;
     font-size: 28px;
 }
-.h{
-    font-size: 12px;
-}
+
 
 .inter{
     display: flex;
     gap: 20px;
+
+
+
 }
+
+.another{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+.fun{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.whale{
+    display: flex;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 24px;
+    width: 58px;
+
+}
+ 
+.pass{
+height: 300px;
+width: 700px;
+}
+
+
+
+
