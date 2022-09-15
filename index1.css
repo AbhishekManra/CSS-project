@@ -1,8 +1,7 @@
-
 .header{
     background-color: #1f2937;  
     color: white;
-    height: 300px;
+    height: 600px;
     padding-top: 22px;
     padding: 20px;
 
@@ -13,9 +12,12 @@
     padding: 20px;
 }
 .fun{
+    
     display: flex;
+    width: fit-content;
     justify-content: center;
     flex-direction: column;
+    
 }
 .first{
     font-weight: 1000;
@@ -35,11 +37,13 @@
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    width: 400px;
 }
 .fun{
     display: flex;
     flex: 1;
     flex-direction: row;
+    gap: 150px;
 }
 
 .whale{
@@ -59,6 +63,9 @@ height: 300px;
 width: 700px;
 }
 
-
-
+.image{
+    display: flex;
+    background-color: rgb(201, 190, 190);
+    padding-top: 40px;
+}
 
