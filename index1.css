@@ -1,15 +1,16 @@
 .header{
     background-color: #1f2937;  
     color: white;
-    height: 600px;
+    height: 500px;
     padding-top: 22px;
     padding: 20px;
 
 }
 .mint{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
     padding: 20px;
+    gap: 60px;
 }
 .fun{
     
@@ -28,9 +29,6 @@
 .inter{
     display: flex;
     gap: 20px;
-
-
-
 }
 
 .another{
@@ -43,19 +41,23 @@
     display: flex;
     flex: 1;
     flex-direction: row;
-    gap: 150px;
+    padding-top: 100px;
 }
 
 .whale{
     display: flex;
+    width: 550px;
+    height: 250px;
+    background-color: rgb(201, 190, 190);
+    justify-content: center;
+    align-items: center;
 }
 
 button{
     background-color: #3882f6;
     color: #f9faf8;
-    height: 24px;
-    width: 58px;
-
+    height: 70x;
+    width: 70px;
 }
  
 .pass{
@@ -65,7 +67,154 @@ width: 700px;
 
 .image{
     display: flex;
-    background-color: rgb(201, 190, 190);
-    padding-top: 40px;
+    font-size: 18px;
+}
+.main{
+    padding-left: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    width: 480px;
+    font-size: 18px;
+}
+.signup-button{
+    display:flex;
+    font-size: 15px;
 }
 
+/*Second section of the webpage*/
+.next{
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    background-color: rgb(247, 241, 242);
+}
+.h-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 0%;
+}
+.fimg{
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    padding-top: 38px;
+    height: 300px ;
+    padding-left: 45px;
+}
+ img{
+    display:flex;
+    background-color: #f9faf8;
+    border: 10px blue;
+    height: 110px;
+    width: 150px;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.pose{
+    display:flex;
+    flex-direction: column;
+    padding-left: 0px;
+    height: 300px;
+    width: 350px;
+    gap: 10px;
+    justify-content: center ;
+}
+.text{
+    display: flex;
+    width: 200px;
+    font-size: 19px;
+    color: #6f7074;
+}
+.third{
+    display:flex;
+    background-color: #e5e7eb;
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+}
+.pg{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 999px;
+    padding-top: 120px;
+}
+
+.para{
+    color: #1f2937;
+    font-style: italic;
+    font-size: 38px;
+    display: flex;
+}
+.thor{
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    padding-right:40px;
+    font-size: 24px;
+    font-weight: bold;
+    margin:1px
+}
+.blue{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.mil{
+    display: flex;
+    background-color:#3882f6;
+    height: 200px;
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.in{
+    display: flex;
+}
+
+.last-code{
+    display: flex;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+.last{
+    display: flex;
+    background-color:#1f2937;
+    height: 80px;
+    color: white;
+    align-items:center;
+    justify-content: center;
+    border:5px #ffffff;
+}
+
+
+
+.but{
+    display: flex;
+    height: 30px;
+}
+.in{
+    font-size: 25px;
+    font-style: italic; 
+    color: #f9faf8;
+}
+.ant{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 800px;
+}
+.bat{
+    display: flex;
+    height: 100px;
+    padding-top: 8px;
+
+}
